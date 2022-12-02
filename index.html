@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCJS practice test</title>
+    <script src="https://kit.fontawesome.com/2bcccdce04.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="text">Create Account<br />Get started with your free account</div>
+        </div>
+    </div>
+    <form action="#" id="form" method="post">
+        <div class="social">
+            <div class="btn">
+                <div class="btn-1">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png"/>
+                    Login via Twitter
+                </div>
+                <div class="btn-2">
+                    <img src="https://img.icons8.com/ios-filled/30/fffff/facebook-new.png"/>
+                    Login via facebook
+                </div>
+            </div>
+            <div class="or">Or</div>
+        </div>
+        <!--User name input-->
+        <div>
+            <i class="fa-solid fa-user"></i>
+            <label for="fullname">Full name</label>
+            <input type="fullname" name="fullname" id="fullname" placeholder="fullname">
+            <i class="fa-sharp fa-solid fa-circle-exclamation failure-icon"></i>
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <!--Email input-->
+        <div> 
+            <i class="fa-solid fa-envelope"></i>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email address">
+            <i class="fa-sharp fa-solid fa-circle-exclamation failure-icon"></i>
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <!--Phone number-->
+        <div>
+            <i class="fa-solid fa-phone"></i>
+            <label for="phonenumber">Phone Number</label>
+            <input type="phonenumber" name="phonenumber" id="phonenumber" placeholder="phonenumber">
+            <i class="fa-sharp fa-solid fa-circle-exclamation failure-icon"></i>
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <!--Select job type-->
+        <div>
+            <i class="fa-sharp fa-solid fa-building"></i>
+            <label class="selectjobtype">Select job type</label>
+            <input type="select job type" name="select job type" id="select job type" placeholder="select job type">
+            <i class="fa-sharp fa-solid fa-circle-exclamation failure-icon"></i>
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <!--Password-->
+        <div>
+            <i class="fa-solid fa-lock"></i>
+            <label class="pasaword">Create password</label>
+            <input type="password" name="pasaword" id="password" placeholder="create pasaword">
+            <i class="fa-sharp fa-solid fa-circle-exclamation failure-icon"></i>
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <!--repeat password-->
+        <div>
+            <i class="fa-solid fa-lock"></i>
+            <label class="pasaword">Repeat password</label>
+            <input type="password" name="pasaword" id="password" placeholder="repeat pasaword">
+            <i class="fa-sharp fa-solid fa-circle-exclamation failure-icon"></i>
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <button type="createaccount">Create account</button>
+        <p>Have an account?</p> 
+        <div class="login">Log in</div>
+        </form>
+    </form>
+</body>
+<script src="index.js"></script> 
+</html>
